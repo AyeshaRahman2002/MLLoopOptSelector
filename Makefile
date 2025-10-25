@@ -1,6 +1,9 @@
 PY=python3
 ART=artifacts
 
+# Fix for macOS OpenMP support (Homebrew libomp)
+export OMP_FLAGS = -Xpreprocessor -fopenmp -I$(shell brew --prefix libomp)/include -L$(shell brew --prefix libomp)/lib -lomp
+
 .PHONY: all smoke data train predict clean deepclean distclean loko hybrid-demo tune export quick \
         cv models vis3d explain meta fewshot workflow report profile collect-fast \
         gnn gnn-data gnn-train gnn-predict

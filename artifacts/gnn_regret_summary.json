@@ -1,0 +1,10 @@
+{
+  "n_configs": 1134,
+  "regret_mean": 22.739827250404794,
+  "regret_median": 1.0,
+  "regret_90p": 1.4995004995004995,
+  "speedup_vs_baseline_mean": 4.97608308948535,
+  "speedup_vs_baseline_median": 2.998001998001998,
+  "strict_regret_mean": 1.1391879799650468,
+  "strict_speedup_vs_baseline_mean": 3.6657135847404714
+}

@@ -1,0 +1,35 @@
+{
+  "matmul": {
+    "acc": 0.9893617021276596,
+    "f1_macro": 0.6645702306079665,
+    "model_family": "RandomForest",
+    "n": 94,
+    "n_covered": 94,
+    "coverage": 1.0,
+    "regret_mean": 1.0451255664913628,
+    "regret_median": 1.0,
+    "speedup_median": 6.595285685676883
+  },
+  "conv1d": {
+    "acc": 0.8976063829787234,
+    "f1_macro": 0.7123301985370952,
+    "model_family": "RandomForest",
+    "n": 752,
+    "n_covered": 752,
+    "coverage": 1.0,
+    "regret_mean": 1.354922507280364,
+    "regret_median": 1.0,
+    "speedup_median": 2.5709797200799773
+  },
+  "stencil2d": {
+    "acc": 1.0,
+    "f1_macro": 1.0,
+    "model_family": "RandomForest",
+    "n": 176,
+    "n_covered": 176,
+    "coverage": 1.0,
+    "regret_mean": 1.0,
+    "regret_median": 1.0,
+    "speedup_median": 1.0194190547572686
+  }
+}

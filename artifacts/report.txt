@@ -1,0 +1,15 @@
+metric            value
+----------------  ----------------------
+model             ExtraTrees (sel_by=f1)
+select_by         f1
+train_acc         0.946
+test_acc          0.843
+train_f1_macro    0.919
+test_f1_macro     0.396
+val_med_regret    1.000
+cv_acc_mean       0.735
+cv_f1_macro_mean  0.443
+n_train           698
+n_test            432
+cost_weighting    True
+class_balance     balanced
