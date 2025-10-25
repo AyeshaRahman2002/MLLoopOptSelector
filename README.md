@@ -1,7 +1,7 @@
 # ML Loop Optimization Selector (MLLoopOptSelector)
 
 This project automates **kernel-level optimization selection** for compute-intensive workloads such as `matmul`, `conv1d`, and `stencil2d`.  
-It combines traditional ML models, meta-learners, and GNNs to predict the best tile, unroll, and optimization parameters for each kernel configuration — minimizing runtime (regret) while maintaining high accuracy and generality.
+It combines traditional ML models, meta-learners, and GNNs to predict the best tile, unroll, and optimization parameters for each kernel configuration minimizing runtime (regret) while maintaining high accuracy and generality.
 
 ## Features
 
@@ -122,8 +122,8 @@ Each workflow generates structured results under `artifacts/`:
 * Always run from project root so paths resolve correctly.
 * Use `make collect-fast` for multi-core data collection.
 * If OpenMP builds fail on macOS, reinstall `libomp` and re-export `OMP_FLAGS`.
-* Regret = `pred_time / best_time` — lower is better.
-* Speedup = `baseline_time / pred_time` — higher is better.
+* Regret = `pred_time / best_time` - lower is better.
+* Speedup = `baseline_time / pred_time` - higher is better.
 
 ## Citation
 
