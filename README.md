@@ -148,6 +148,6 @@ If you use this in research or benchmarking:
   title = {ML Loop Optimization Selector},
   author = {Ayesha Rahman},
   year = {2025},
-  url = {https://github.com/yourusername/MLLoopOptSelector}
+  url = {https://github.com/AyeshaRahman2002/MLLoopOptSelector}
 }
 ```
