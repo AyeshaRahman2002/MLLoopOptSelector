@@ -1,0 +1,29 @@
+{
+  "system": {
+    "python": "3.8.8",
+    "platform": "macOS-10.16-x86_64-i386-64bit",
+    "machine": "x86_64",
+    "processor": "i386",
+    "clang": "Apple clang version 17.0.0 (clang-1700.0.13.3)",
+    "timestamp_utc": "2025-10-25T11:21:55.026312Z"
+  },
+  "args": {
+    "sizes": [
+      128,
+      192,
+      256,
+      320,
+      384,
+      448,
+      512
+    ],
+    "repeats": 4,
+    "warmup": 1,
+    "parallel": true,
+    "jobs": 4,
+    "trim_outliers": true,
+    "more_kernels": false,
+    "out_csv": "artifacts/dataset.csv",
+    "meta_out": "artifacts/collect_meta.json"
+  }
+}
