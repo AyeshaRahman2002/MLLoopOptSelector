@@ -62,20 +62,6 @@ MLLoopOptSelector/
 ```
 
 ## Usage (Makefile Targets)
-Quick Start
-```bash
-make workflow
-```
-
-Equivalent to:
-```bash
-make data
-make train
-```
-
----
-
-## 🚀 Usage (Makefile Targets)
 
 ### Quick Start
 
